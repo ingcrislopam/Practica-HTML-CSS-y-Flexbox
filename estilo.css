@@ -16,8 +16,13 @@
     /*font-weight: 100;*/
 }
 
+body {
+    background: #000;
+}
+
 h2 {
     text-align: center;
+    color: #fff;
     margin-top: 15px;
     margin-bottom: 0;
 }
@@ -39,7 +44,7 @@ h2 {
 }
 
 .menu-kfc__combo:hover, .menu-kfc__bebida:hover {
-    background: rgb(182, 33, 33);
+    background: rgb(194, 191, 34);
 }
 
 .menu-kfc__combo-contenido, .menu-kfc__bebida-contenido {
