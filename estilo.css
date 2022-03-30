@@ -1,0 +1,81 @@
+/*h2 {
+    background-color: brown;
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 2em;
+    box-shadow: 30px 20px 10px 10px black;
+    text-shadow: 2px 2px 7px white;
+    transform: rotate(-25deg);
+}*/
+
+* {
+    font-family: 'Sen', sans-serif;
+    /*font-weight: 100;*/
+}
+
+.menu-kfc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-kfc__combo {
+    height: 220px;
+    min-width: 220px;
+    box-shadow: 2px 2px 2px 2px rgb(136, 132, 132);;
+    background: rgb(224, 39, 39);
+    margin: 10px;
+    color: #fff;
+    flex: 1;
+}
+
+.menu-kfc__combo-contenido {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-logotipo {
+    margin-top: 2px;
+    margin-right: 4px;
+    flex: 1;
+}
+
+.texto-logotipo p{
+    font-size: 12px;
+    text-align: right;
+    padding: 0;
+}
+
+.nombre-combo {
+    margin: 0;
+    flex: 1;
+}
+
+.nombre-combo p{
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+}
+
+.imagen-combo {
+    text-align: center;
+    flex: 1;
+}
+
+.imagen-combo img{
+    height: 140px;
+    margin: 0;
+}
+
+.precio-combo {
+    text-align: left;
+    flex: 1;
+    margin-left: 15px;
+}
+
+.precio-combo p {
+    font-size: 30px;
+}
